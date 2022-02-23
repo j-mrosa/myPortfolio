@@ -16,47 +16,56 @@
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
     </script>
+    <!-- Add icon library -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
     <!-- css stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="nav" data-offset="50">
 
+    <!-- Navbar -->
     <nav
         class="navbar navbar-expand-lg navbar-light navbar-light fixed-top mask-custom shadow-0">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#myNavbarToggler7" aria-controls="myNavbarToggler7"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button"
+            data-toggle="collapse" data-target="#myNavbarToggler"
+            aria-controls="myNavbarToggler" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="myNavbarToggler7">
+        <div class="collapse navbar-collapse" id="myNavbarToggler">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#about">About Me</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-
-    <div class="jumbotron jumbotron-fluid myBanner">
+    <!-- Banner -->
+    <div class="jumbotron jumbotron-fluid myBanner" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 pl-5 text-center">
                     <h1 class="display-2">Juliana <br> Rosa</h1>
+                    <p><a href="https://linkedin.com/in/juliana-mrosa" class="fa fa-linkedin"></a> &nbsp;&nbsp; <a href="https://github.com/j-mrosa " class="fa fa-github"></a></p>
+
                 </div>
 
                 <div class="col-md-6 pt-5 text-center">
@@ -68,188 +77,234 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+
+    <!-- About section -->
+    <div class="container-fluid pt-4" id="about">
         <div class="row text-white pt-5">
             <div class="col-sm-1 col-lg-2">
             </div>
-            <div class="col-sm-6 col-lg-5">
-                <h2 class="text-center">About Me</h2>
-                <p>Bootstrap is the most popular HTML, CSS, and JS framework for
-                    developing responsive, mobile-first projects on the web.</p>
+            <div class="col-sm-6 col-lg-5 ">
+                <h2 class="text-center mb-3">About Me</h2>
+                <p class=" px-2">Hi all! &#128075; <br><br>
+                    I'm passionate about the Software Development Process and
+                    the wonders that technology can proportionate. From Analysis
+                    and Design to Coding, I am eager to learn about all the
+                    steps.
+                    For some time, web tutorials were a hobby between a work
+                    appointment and another, but I couldn't stop my crescent
+                    curiosity for the tech world.
+                    In 2018 things changed, and I decided to dive deeper into
+                    this career. Since then, I've been studying to become a
+                    truly Full Stack Developer.
+                    I've taken several online courses and a technical
+                    certificate before moving to Canada and becoming a full-time
+                    student at New Brunswick Community College.
+                    I've learned a lot in the past years, making it possible to
+                    build a vast developer toolset.
+                    Now I feel super excited to contribute to impactful projects
+                    as a graduating Programmer Analyst!
+                    <br><br>
+                    Want to know more details? Feel free to download my resume
+                    and check out my projects!
+                </p>
+                <div class="row">
+                    <div class="btn btn-warning mx-auto mt-3 mb-5">
+                        <a class="text-dark text-decoration-none"
+                            href="Resume-JulianaRosa.pdf" download><i
+                                class="fa fa-download"></i> Download my
+                            Resume</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4 col-lg-3">
-                <h3>Stack</h3>
-                <p>Bootstrap is the most popular HTML, CSS, and JS framework for
-                    developing responsive, mobile-first projects on the web.</p>
+            <div class="col-sm-4 col-lg-3 text-center">
+                <h3 class="mb-3 ">Stack</h3>
+                <p class="display-2">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                    <i class="devicon-css3-plain-wordmark"></i>
+                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-php-plain"></i>
+                    <i class="devicon-nodejs-plain-wordmark"></i>
+                    <i class="devicon-java-plain-wordmark"></i>
+                    <i class="devicon-csharp-plain-wordmark"></i>
+                    <i class="devicon-dotnetcore-plain"></i>
+                    <i class="devicon-android-plain-wordmark"></i>
+                    <i class="devicon-bootstrap-plain-wordmark"></i>
+                    <i class="devicon-git-plain-wordmark"></i>
+                    <i class="devicon-mysql-plain-wordmark"></i>
+                    <i class="devicon-mongodb-plain-wordmark"></i>
+
+                </p>
             </div>
             <div class="col-sm-1 col-lg-2">
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row mt-5 text-center">
-                <div class="col-12 mb-3">
-                    <h2 class="text-white">Projects</h2>
-                </div>
-
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white myCard rounded shadow-sm py-5 px-4">
-                        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg"
-                            alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Manuella Nevoresky</h5><span
-                            class="small text-uppercase text-muted">CEO -
-                            Founder</span>s
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white myCard rounded shadow-sm py-5 px-4">
-                        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-2.jpg"
-                            alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Samuel Hardy</h5><span
-                            class="small text-uppercase text-muted">CEO -
-                            Founder</span>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white myCard rounded shadow-sm py-5 px-4">
-                        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-1.jpg"
-                            alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Tom Sunderland</h5><span
-                            class="small text-uppercase text-muted">CEO -
-                            Founder</span>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6 mb-5">
-                    <div class="bg-white myCard rounded shadow-sm py-5 px-4">
-                        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-7.jpg"
-                            alt="" width="100"
-                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">John Tarly</h5><span
-                            class="small text-uppercase text-muted">CEO -
-                            Founder</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--  </div> -->
-
-        <div class="container-fluid">
-            <div class="row mt-5 text-center">
-                <div class="col-sm-2 col-lg-3"></div>
-                <div class="col-sm-8 col-lg-6">
-                    <h2 class="text-white ">Contact me</h2>
-
-
-                    <form id="contact-form" method="post" action="/success" data-netlify="true"
-                        role="form">
-                        <div class="messages"></div>
-                        <div class="controls">
-
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_name">Firstname
-                                            *</label>
-                                        <input id="form_firstname" type="text"
-                                            name="name" class="form-control"
-                                            placeholder="Please enter your first name *"
-                                            required="required"
-                                            data-error="Firstname is required.">
-                                        <div class="help-block with-errors">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname
-                                            *</label>
-                                        <input id="form_lastname" type="text"
-                                            name="surname" class="form-control"
-                                            placeholder="Please enter your last name *"
-                                            required="required"
-                                            data-error="Lastname is required.">
-                                        <div class="help-block with-errors">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email"
-                                            name="email" class="form-control"
-                                            placeholder="Please enter your email *"
-                                            required="required"
-                                            data-error="Valid email is required.">
-                                        <div class="help-block with-errors">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_subject">Subject
-                                            *</label>
-                                        <input id="form_subject" type="text"
-                                            name="subject" class="form-control"
-                                            placeholder="Please enter the subject *"
-                                            required="required"
-                                            data-error="Subject is required.">
-                                        <div class="help-block with-errors">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_message">Message
-                                            *</label>
-                                        <textarea id="form_message"
-                                            name="message" class="form-control"
-                                            placeholder="Message for me *"
-                                            rows="4" required="required"
-                                            data-error="Please, leave us a message."></textarea>
-                                        <div class="help-block with-errors">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>    
-                            <div class="row">
-                                <div class="mx-auto"> 
-                                    <div data-netlify-recaptcha="true"></div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12"> 
-                                    <input type="submit"
-                                        class="btn btn-warning btn-send m-3"
-                                        value="Send message">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p class="text-muted">
-                                        <strong>*</strong> These fields are
-                                        required.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-            <div class="col-sm-2 col-lg-3"></div>
         </div>
     </div>
 
 
+    <!-- Projects Section -->
+    <div class="container pt-5" id="projects">
+        <div class="row mt-5 text-center">
+            <div class="col-12 mb-3">
+                <h2 class="text-white">Projects</h2>
+            </div>
 
+            <div class="col-xl-3 col-sm-6 mb-5">
+                <div class="bg-white myCard rounded shadow-sm py-5 px-4">
+                    <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg"
+                        alt="" width="100"
+                        class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Manuella Nevoresky</h5><span
+                        class="small text-uppercase text-muted">CEO -
+                        Founder</span>s
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 mb-5">
+                <div class="bg-white myCard rounded shadow-sm py-5 px-4">
+                    <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-2.jpg"
+                        alt="" width="100"
+                        class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Samuel Hardy</h5><span
+                        class="small text-uppercase text-muted">CEO -
+                        Founder</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 mb-5">
+                <div class="bg-white myCard rounded shadow-sm py-5 px-4">
+                    <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-1.jpg"
+                        alt="" width="100"
+                        class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Tom Sunderland</h5><span
+                        class="small text-uppercase text-muted">CEO -
+                        Founder</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 mb-5">
+                <div class="bg-white myCard rounded shadow-sm py-5 px-4">
+                    <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-7.jpg"
+                        alt="" width="100"
+                        class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">John Tarly</h5><span
+                        class="small text-uppercase text-muted">CEO -
+                        Founder</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Form -->
+    <div class="container-fluid" id="contact">
+        <div class="row mt-5 text-center">
+            <div class="col-sm-2 col-lg-3"></div>
+            <div class="col-sm-8 col-lg-6">
+                <h2 class="text-white ">Contact me</h2>
+
+
+                <form id="contact-form" method="post" action="/success"
+                    data-netlify="true" role="form">
+                    <div class="messages"></div>
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Firstname
+                                        *</label>
+                                    <input id="form_firstname" type="text"
+                                        name="name" class="form-control"
+                                        placeholder="Please enter your first name *"
+                                        required="required"
+                                        data-error="Firstname is required.">
+                                    <div class="help-block with-errors">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname
+                                        *</label>
+                                    <input id="form_lastname" type="text"
+                                        name="surname" class="form-control"
+                                        placeholder="Please enter your last name *"
+                                        required="required"
+                                        data-error="Lastname is required.">
+                                    <div class="help-block with-errors">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email"
+                                        name="email" class="form-control"
+                                        placeholder="Please enter your email *"
+                                        required="required"
+                                        data-error="Valid email is required.">
+                                    <div class="help-block with-errors">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_subject">Subject
+                                        *</label>
+                                    <input id="form_subject" type="text"
+                                        name="subject" class="form-control"
+                                        placeholder="Please enter the subject *"
+                                        required="required"
+                                        data-error="Subject is required.">
+                                    <div class="help-block with-errors">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message
+                                        *</label>
+                                    <textarea id="form_message" name="message"
+                                        class="form-control"
+                                        placeholder="Message for me *" rows="4"
+                                        required="required"
+                                        data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mx-auto">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit"
+                                    class="btn btn-warning btn-send m-3"
+                                    value="Send message">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-muted">
+                                    <strong>*</strong> These fields are
+                                    required.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-2 col-lg-3"></div>
+    </div>
+
+
+    <!-- Footer -->
     <div class="jumbotron text-center" style="margin-bottom:0">
         <p>Footer</p>
     </div>

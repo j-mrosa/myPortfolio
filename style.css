@@ -3,6 +3,10 @@ body {
     background-color: #292727;
 }
 
+body{
+    position: relative;
+}
+
 @font-face {
     font-family: 'Cutive Mono Regular';
     font-style: normal;
@@ -56,3 +60,13 @@ body {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .3);
     cursor: pointer;
 }
+
+
+  .fa:hover {
+      color: gray;
+  }
+
+  .fa-linkedin , .fa-github {
+    font-size: 2rem;;
+    color: rgb(252, 214, 4);
+  }
