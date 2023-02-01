@@ -1,4 +1,4 @@
-html,
+Ihtml,
 body,
 .myFooter {
     background-color: #181816;
@@ -113,6 +113,10 @@ body {
     color: rgb(252, 214, 4);
     font-family: 'Cutive Mono Regular';
     font-weight: 100;
+}
+
+.display-2{
+    font-size: 4rem;
 }
 
 @media screen and (min-width: 1200px) {
